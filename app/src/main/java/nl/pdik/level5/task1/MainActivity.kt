@@ -51,7 +51,7 @@ fun ProfileNavHost(
     val viewModel: ProfileViewModel = viewModel();
     NavHost(
         navController = navController,
-        startDestination = Screens.ProfileScreen.route,
+        startDestination = Screens.CreateProfile.route,
         modifier = modifier
     ) {
         composable(Screens.ProfileScreen.route) {
